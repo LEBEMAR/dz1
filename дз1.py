@@ -12,7 +12,7 @@ number_column = int(input("Введите номер столбца "))
 res = ""
 
 while number_column > 0:
-    r = n % 26
+    r = number_column % 26
     if r == 0:
         r = 26
     res = chr(r + 64) + res
